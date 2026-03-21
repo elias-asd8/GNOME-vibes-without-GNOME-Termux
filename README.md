@@ -2,7 +2,7 @@
 Here's a guide to get gnome on xfce (sorta were just installing xfce and installing the gnome components)
 so first we need to update pkgs and proot-distro ubuntu, we can do this by executing
 ```bash
-pkg upgrade && pkg install proot-distro && pd install Ubuntu && pd login Ubuntu && apt upgrade -y
+pkg upgrade && pkg install proot-distro && pd install ubuntu && pd login ubuntu && apt upgrade -y
 ```
 now we need our stuff for xfce and the gnome transformation 
 ```bash
@@ -19,11 +19,11 @@ startxfce4 &
 Now go to the xpanel (xfce panel) and right click it, click panel, click add new items, search whiskermenu and click on it, then click on the button add
 If u want a custom wallpaper u can run in the xfce terminal 
 ```bash
-nitrogen /storage/emulated/0/Pictures/(enter ur image name here)
+nitrogen /storage/emulated/0/Pictures/
 ```
 or if its in proot:
 ```bash
-nitrogen ~/(enter ur image name here)
+nitrogen ~/
 ```
 ok now run the app bar 
 ```bash
