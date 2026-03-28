@@ -29,7 +29,7 @@ ok now run the app bar
 ```bash
 plank &
 ```
-after running that minimize the terminal
+after running that minimize the terminal.
 now the icons, we have to go to Settings → Appearance → Icons tab → select Adwaita
 
 then boom! ur xfdesktop is gnome without systemd stuff
